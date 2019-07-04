@@ -1,0 +1,32 @@
+{
+  "name": "backend-pep-test",
+  "version": "1.0.0",
+  "description": "axa backend test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "debug": "node debug .",
+    "test": "mocha logic",
+    "debug-test": "mocha debug logic",
+    "test-data": "mocha data"
+  },
+  "keywords": [
+    "axa",
+    "jobtest",
+    "hireme!"
+  ],
+  "author": "Josep del Baño",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

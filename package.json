@@ -8,8 +8,7 @@
     "dev": "nodemon .",
     "debug": "node debug .",
     "test": "mocha logic",
-    "debug-test": "mocha debug logic",
-    "test-data": "mocha data"
+    "debug-test": "mocha debug logic"
   },
   "keywords": [
     "axa",
@@ -25,7 +24,6 @@
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
     "mocha": "^6.1.4"
   },
   "devDependencies": {

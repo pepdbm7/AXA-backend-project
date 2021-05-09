@@ -27,7 +27,7 @@
     "mocha": "^6.1.4"
   },
   "devDependencies": {
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "nodemon": "^1.19.1"
   }
 }
